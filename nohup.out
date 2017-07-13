@@ -1,0 +1,29 @@
+Server Is Running On Port : 2308
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:904:11)
+    at Server._listen2 (net.js:1042:14)
+    at listen (net.js:1064:10)
+    at Server.listen (net.js:1138:5)
+    at Object.<anonymous> (/home/saifudin/development-node/bukutamu/app.js:47:24)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+[90mGET / [36m304 [90m28ms[0m
+[90mGET /css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /js/bootstrap.min.js [36m304 [90m2ms[0m
+[90mGET /bukutamu/ubah/1 [32m200 [90m6ms - 1.6kb[0m
+[90mGET /css/bootstrap.min.css [36m304 [90m0ms[0m
+[90mGET /js/bootstrap.min.js [36m304 [90m2ms[0m
+[90mPOST /bukutamu/ubah/1 [36m302 [90m351ms - 58b[0m
+[90mGET / [32m200 [90m2ms - 1.48kb[0m
+[90mGET /css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /bukutamu/tambah [36m304 [90m3ms[0m
+[90mGET /css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /js/bootstrap.min.js [36m304 [90m0ms[0m
